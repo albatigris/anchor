@@ -1,14 +1,38 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>github deneme web sayfası</title>
-</head>
+<!DOCTYPE html>
+<html>
 <body>
-    <h4>
-        github deneme sayfası
-    </h4>
-    <p> bitmeyen denemeler</p>
+<h2>JavaScript Statements</h2>
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+<p id="demo"></p>
+<p id="demo_1"></p>
+<p id="demo_2"></p>
+<p id="demo_3"></p>
+<p id="demo_4"></p>
+<script>
+var x, y, z;  // Declare 3 variables
+x = 5;        // Assign the value 5 to x
+y = 6;        // Assign the value 6 to y
+z = x + y;    // Assign the sum of x and y to z
+
+var a, b, c;
+a = 12; b = 23; xxx = a + b;
+
+document.getElementById("demo").innerHTML =
+"The value of z is " + z + ".";
+document.getElementById("demo_1").innerHTML =
+"ondalıklı sayı gösterimi : " + 10.50;
+document.getElementById("demo_2").innerHTML = '‘kemal’' + '‘ beler’';
+document.getElementById("demo_3").innerHTML =
+"inner.html içinde aritmetik işlem " + (3+2)*25;
+// bu comment gösterimi tek satır
+/* bu comment gösterimi 
+çok satır
+js ayrıca case sensitive dir, N != n yani*/
+
+document.getElementById("demo_4").innerHTML =
+"tek satırda çok var tanımlama xxx = " + xxx + ".";
+
+</script>
+
 </body>
 </html>
